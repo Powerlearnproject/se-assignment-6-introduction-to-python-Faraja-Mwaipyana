@@ -44,44 +44,78 @@ Answer the following questions based on your understanding of Python programming
 - Submit your completed assignment by [due date].
 
 ANSWERS.
-Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python's design philosophy emphasizes code readability with the use of significant indentation.
+
+Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. 
+
+
+Python's design philosophy emphasizes code readability with the use of significant indentation.
 
 Key Features:
 
 Readability and Simplicity: Python's syntax is clean and easy to understand, making it accessible for beginners.
+
 Interpreted Language: Python code is executed line by line, which simplifies debugging.
+
 Dynamically Typed: You don't need to declare variable types explicitly.
+
 Extensive Standard Library: Python has a rich set of libraries and frameworks for various tasks.
+
 Cross-Platform: Python works on different operating systems like Windows, macOS, and Linux.
+
 Community Support: Python has a large and active community which contributes to a wealth of resources and libraries.
+
+
 Use Cases:
 
 Web Development: Frameworks like Django and Flask.
+
 Data Science and Machine Learning: Libraries such as Pandas, NumPy, and Scikit-learn.
+
 Automation and Scripting: Automating repetitive tasks and writing scripts for various purposes.
+
 Software Development: Building applications and tools.
+
 Artificial Intelligence: AI and deep learning frameworks like TensorFlow and PyTorch.
+
 Installing Python
+
 Describe the steps to install Python on your operating system (Windows, macOS, or Linux). Include how to verify the installation and set up a virtual environment.
+
+
 Windows:
 
 Download: Go to the official Python website and download the Windows installer.
+
 Install: Run the installer. Ensure you check the "Add Python to PATH" option.
+
+
 Verify Installation: Open Command Prompt and type python --version or python.
+
+
 Set Up Virtual Environment:
 shell
+
 Copy code
+
 python -m venv myenv
+
 myenv\Scripts\activate
+
 macOS:
 
 Download: Go to the official Python website and download the macOS installer.
+
 Install: Run the installer.
+
 Verify Installation: Open Terminal and type python3 --version.
+
 Set Up Virtual Environment:
 shell
+
 Copy code
+
 python3 -m venv myenv
+
 source myenv/bin/activate
 Linux:
 
