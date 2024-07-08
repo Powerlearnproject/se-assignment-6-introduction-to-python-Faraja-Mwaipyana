@@ -43,6 +43,7 @@ Answer the following questions based on your understanding of Python programming
 - Cite any references or sources you use in your answers.
 - Submit your completed assignment by [due date].
 
+
 ANSWERS.
 
 Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. 
@@ -95,7 +96,6 @@ Verify Installation: Open Command Prompt and type python --version or python.
 Set Up Virtual Environment:
 shell
 
-Copy code
 
 python -m venv myenv
 
@@ -112,22 +112,22 @@ Verify Installation: Open Terminal and type python3 --version.
 Set Up Virtual Environment:
 shell
 
-Copy code
+
 
 python3 -m venv myenv
 
 source myenv/bin/activate
+
 Linux:
 
 Install Python: Use package manager.
 shell
-Copy code
 sudo apt-get update
 sudo apt-get install python3
-Verify Installation: Open Terminal and type python3 --version.
+Verify Installation: Open Terminal and type python3 --version
+
 Set Up Virtual Environment:
 shell
-Copy code
 sudo apt-get install python3-venv
 python3 -m venv myenv
 source myenv/bin/activate
@@ -152,7 +152,7 @@ dict: Collection of key-value pairs.
 Script:
 
 python
-Copy code
+
 # Integer
 age = 25
 
@@ -189,7 +189,7 @@ Conditional Statements: Used to perform different actions based on different con
 Example of if-else:
 
 python
-Copy code
+
 age = 18
 
 if age >= 18:
@@ -201,7 +201,7 @@ Loops: Used to execute a block of code repeatedly.
 Example of for loop:
 
 python
-Copy code
+
 numbers = [1, 2, 3, 4, 5]
 
 for num in numbers:
@@ -218,7 +218,7 @@ Simplified debugging and testing.
 Function Example:
 
 python
-Copy code
+
 def add(a, b):
     return a + b
 
@@ -233,7 +233,7 @@ Dictionaries: Unordered, mutable collection of key-value pairs. Accessed by keys
 Script:
 
 python
-Copy code
+
 # List of numbers
 numbers = [10, 20, 30, 40, 50]
 
@@ -262,7 +262,7 @@ Exception Handling: Mechanism to handle runtime errors, allowing the program to 
 Example:
 
 python
-Copy code
+
 try:
     result = 10 / 0
 except ZeroDivisionError:
@@ -279,18 +279,19 @@ Packages: Collections of modules organized in directories.
 Importing and Using a Module:
 
 python
-Copy code
+
 import math
 
 # Using math module
 print(math.sqrt(16))  # Output: 4.0
 print(math.pi)  # Output: 3.141592653589793
 File I/O
-How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
+How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file
+
 Reading from a File:
 
 python
-Copy code
+
 # Reading from a file
 with open('example.txt', 'r') as file:
     content = file.read()
@@ -298,7 +299,7 @@ with open('example.txt', 'r') as file:
 Writing to a File:
 
 python
-Copy code
+
 # Writing to a file
 lines = ["First line", "Second line", "Third line"]
 
